@@ -5,7 +5,7 @@ This is a Nodejs project, Nodejs version 18.0 (recommended)
 First, run the development server:
 
 ```bash
-node index.js
+npm start
 ```
 
 The endpoint is [http://localhost:8080](http://localhost:8080)
