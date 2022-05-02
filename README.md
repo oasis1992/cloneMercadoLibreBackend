@@ -3,7 +3,7 @@
 ## 1. Empezar
 
 ### Nota: Versión recomendada de Node 18.0
-$~$
+&nbsp;
 
 ```bash
  1. yarn install
@@ -12,11 +12,11 @@ $~$
 
 Se levanta un endpoint con su respectivo puerto [http://localhost:8080](http://localhost:8080)
 
-$~$
+&nbsp;
 
 ## API
 
-$~$
+&nbsp;
 ### 2. Buscar productos
     /api/items
 
@@ -24,7 +24,7 @@ $~$
 | ----------- | ----------- | -------  |
 | q           | string      |          |
 
-$~$
+&nbsp;
 ### 2.1 Success Response
 ```json
 {
@@ -55,7 +55,7 @@ $~$
 }
 ```
 
-$~$
+&nbsp;
 
 #### No se encuentran coincidencias con "q"
 ```json
@@ -64,7 +64,7 @@ $~$
     message: 'Product not found'
 }
 ```
-$~$
+&nbsp;
 
 #### La búsqueda es sobrepasada por los limites o se encontraron caracteres extraños en "q"
 
@@ -74,7 +74,7 @@ $~$
     message: 'Product not found'
 }
 ```
-$~$
+&nbsp;
 #### Error de servidor
 
 
@@ -84,7 +84,7 @@ $~$
     message: 'Server error'
 }
 ```
-$~$
+&nbsp;
 ### 2. Buscar productos
     api/items/:id
 
@@ -123,7 +123,7 @@ $~$
     message: 'Product not found'
 }
 ```
-$~$
+&nbsp;
 
 #### La búsqueda es sobrepasada por los limites o se encontraron caracteres extraños en "q"
 
@@ -133,7 +133,7 @@ $~$
     message: 'Product not found'
 }
 ```
-$~$
+&nbsp;
 #### Error de servidor
 
 
